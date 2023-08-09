@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffa500;
+}
+
+.theChallenge, nav {
+    padding: 1em;
+    margin: 1em;
+}
+
+.theChallenge img {
+    padding-top: 1em;
+}
+
+nav li {
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+}
