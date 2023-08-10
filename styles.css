@@ -1,17 +1,24 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: .5em;
     box-sizing: border-box;
     background-color: #ffa500;
 }
+nav{
+    display: flex;
+    align-items: flex-start;
 
-.theChallenge, nav {
-    padding: 1em;
-    margin: 1em;
 }
 
-.theChallenge img {
-    padding-top: 1em;
+.theChallenge{
+    text-align: center;
+    padding: 0;
+    margin: .1em;
+}
+
+    img {
+    display: flex;
+    align-content: flex-start;
 }
 
 nav li {
